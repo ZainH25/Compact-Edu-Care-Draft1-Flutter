@@ -1,0 +1,317 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/icons-facebook-line.png
+    - assets/page-1/images/group-1000014996.png
+    - assets/page-1/images/group-13186.png
+    - assets/page-1/images/icon.png
+    - assets/page-1/images/bxcartalticon-1.png
+    - assets/page-1/images/bxcartalticon-1-euu.png
+    - assets/page-1/images/group-13186-UGf.png
+    - assets/page-1/images/divfeatures-box-image.png
+    - assets/page-1/images/icons-dribbble-line.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/vector-hPV.png
+    - assets/page-1/images/icons-instagram-line.png
+    - assets/page-1/images/bxcartalticon-1-F6P.png
+    - assets/page-1/images/icons-dribbble-line-SrB.png
+    - assets/page-1/images/icon-5TD.png
+    - assets/page-1/images/icon-CLo.png
+    - assets/page-1/images/vector-AsH.png
+    - assets/page-1/images/group-1000014970.png
+    - assets/page-1/images/addresslocationmapnavigationicon-1.png
+    - assets/page-1/images/phoneicon-1.png
+    - assets/page-1/images/bxcartalticon-1-sYb.png
+    - assets/page-1/images/ellipse-8324.png
+    - assets/page-1/images/bxcartalticon-1-Hk3.png
+    - assets/page-1/images/divfeatures-box-image-495.png
+    - assets/page-1/images/icon-MCb.png
+    - assets/page-1/images/icon-bq1.png
+    - assets/page-1/images/divfeatures-box-image-b1h.png
+    - assets/page-1/images/vector-ih5.png
+    - assets/page-1/images/bxcartalticon-1-D83.png
+    - assets/page-1/images/ellipse-8327.png
+    - assets/page-1/images/icons-twitter-line.png
+    - assets/page-1/images/addresslocationmapnavigationicon-1-xQF.png
+    - assets/page-1/images/divfeatures-box-image-vQw.png
+    - assets/page-1/images/icons-instagram-line-32F.png
+    - assets/page-1/images/divfeatures-box-image-aMV.png
+    - assets/page-1/images/vector-xHM.png
+    - assets/page-1/images/icons-facebook-line-o8j.png
+    - assets/page-1/images/icon-aj9.png
+    - assets/page-1/images/bxcartalticon-1-xFq.png
+    - assets/page-1/images/bxcartalticon-1-jps.png
+    - assets/page-1/images/phoneicon-1-tSs.png
+    - assets/page-1/images/bxcartalticon-1-i7R.png
+    - assets/page-1/images/bxcartalticon-1-Sp7.png
+    - assets/page-1/images/link-brand5png.png
+    - assets/page-1/images/link-brand3png.png
+    - assets/page-1/images/phoneicon-1-n8X.png
+    - assets/page-1/images/vector-Qwq.png
+    - assets/page-1/images/link-brand6png.png
+    - assets/page-1/images/icon-ZkB.png
+    - assets/page-1/images/icons-facebook-line-9F5.png
+    - assets/page-1/images/icons-dribbble-line-5My.png
+    - assets/page-1/images/divfeatures-box-image-RvP.png
+    - assets/page-1/images/group-512857.png
+    - assets/page-1/images/icons-twitter-line-Zg3.png
+    - assets/page-1/images/link-brand1png.png
+    - assets/page-1/images/chevron-right.png
+    - assets/page-1/images/icons-instagram-line-vNB.png
+    - assets/page-1/images/rs-layer-01homeeducationpng-bg.png
+    - assets/page-1/images/ellipse-118.png
+    - assets/page-1/images/vector-WAK.png
+    - assets/page-1/images/link-brand2png.png
+    - assets/page-1/images/polygon-7.png
+    - assets/page-1/images/addresslocationmapnavigationicon-1-jSf.png
+    - assets/page-1/images/chevron-right-FSw.png
+    - assets/page-1/images/chevron-right-kEb.png
+    - assets/page-1/images/bxcartalticon-1-X1y.png
+    - assets/page-1/images/link-brand4png.png
+    - assets/page-1/images/chevron-right-YxP.png
+    - assets/page-1/images/cute-freelance-girl-using-laptop-sitting-floor-smiling-removebg-preview-1.png
+    - assets/page-1/images/vector-hmy.png
+    - assets/page-1/images/icons-twitter-line-rgo.png
+    - assets/page-1/images/group-1000014996-F6f.png
+    - assets/page-1/images/ellipse-8325.png
+    - assets/page-1/images/link-brand1png-ggo.png
+    - assets/page-1/images/vector-Fcb.png
+    - assets/page-1/images/link-brand3png-sRZ.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/chevron-right-2pf.png
+    - assets/page-1/images/vector-3xB.png
+    - assets/page-1/images/vector-d59.png
+    - assets/page-1/images/icon-767.png
+    - assets/page-1/images/group-13186-uTD.png
+    - assets/page-1/images/group-1000014996-YUo.png
+    - assets/page-1/images/vector-9mR.png
+    - assets/page-1/images/chevron-right-jd9.png
+    - assets/page-1/images/link-brand1png-vUf.png
+    - assets/page-1/images/link-brand1png-6E3.png
+    - assets/page-1/images/chevron-right-Apo.png
+    - assets/page-1/images/link-brand1png-hpj.png
+    - assets/page-1/images/vector-5B5.png
+    - assets/page-1/images/right.png
+    - assets/page-1/images/icons-twitter-line-cgo.png
+    - assets/page-1/images/ellipse-1217.png
+    - assets/page-1/images/bxcartalticon-1-wyy.png
+    - assets/page-1/images/mask-group-ufu.png
+    - assets/page-1/images/icon-5aP.png
+    - assets/page-1/images/mask-group-3XD.png
+    - assets/page-1/images/group-13186-A63.png
+    - assets/page-1/images/link-brand1png-upK.png
+    - assets/page-1/images/vector-s3d.png
+    - assets/page-1/images/icons-instagram-line-shq.png
+    - assets/page-1/images/addresslocationmapnavigationicon-1-2cf.png
+    - assets/page-1/images/link-brand2png-psq.png
+    - assets/page-1/images/mask-group-8Go.png
+    - assets/page-1/images/mask-group-jxK.png
+    - assets/page-1/images/ellipse-8319.png
+    - assets/page-1/images/unsplash-jaovgh5aj3e.png
+    - assets/page-1/images/untitleddesign11-removebg-preview-1-1.png
+    - assets/page-1/images/link-brand5png-x4f.png
+    - assets/page-1/images/mask-group-cQ7.png
+    - assets/page-1/images/chevron-right-87Z.png
+    - assets/page-1/images/background-3.png
+    - assets/page-1/images/background-3-2Cw.png
+    - assets/page-1/images/chevron-right-P3V.png
+    - assets/page-1/images/rectangle-294.png
+    - assets/page-1/images/mask-group-uXd.png
+    - assets/page-1/images/mask-group-fmh.png
+    - assets/page-1/images/rectangle-2752.png
+    - assets/page-1/images/mask-group-RVy.png
+    - assets/page-1/images/screenshot-47-1.png
+    - assets/page-1/images/mask-group-TEo.png
+    - assets/page-1/images/right-vPq.png
+    - assets/page-1/images/vector-5AF.png
+    - assets/page-1/images/link-brand6png-Pgj.png
+    - assets/page-1/images/chevron-right-jkb.png
+    - assets/page-1/images/mask-group-HXD.png
+    - assets/page-1/images/icons-dribbble-line-cpP.png
+    - assets/page-1/images/ellipse-8324-xdM.png
+    - assets/page-1/images/rklogo-removebg-preview-transformed-1.png
+    - assets/page-1/images/icon-dAF.png
+    - assets/page-1/images/mask-group-xyD.png
+    - assets/page-1/images/mask-group-Bcs.png
+    - assets/page-1/images/mask-group-uh1.png
+    - assets/page-1/images/vector-dsu.png
+    - assets/page-1/images/mask-group-YyV.png
+    - assets/page-1/images/link-brand4png-w67.png
+    - assets/page-1/images/mask-group-uT5.png
+    - assets/page-1/images/mask-group-sAw.png
+    - assets/page-1/images/ellipse-8325-xmm.png
+    - assets/page-1/images/mask-group-6NB.png
+    - assets/page-1/images/icons-facebook-line-FVy.png
+    - assets/page-1/images/mask-group-8CP.png
+    - assets/page-1/images/link-brand5png-rPH.png
+    - assets/page-1/images/phoneicon-1-Qfh.png
+    - assets/page-1/images/ellipse-8325-mWF.png
+    - assets/page-1/images/mask-group-Y1D.png
+    - assets/page-1/images/mask-group-Jm5.png
+    - assets/page-1/images/mask-group-g7R.png
+    - assets/page-1/images/untitleddesign11-removebg-preview-1-1-pjR.png
+    - assets/page-1/images/rectangle-8714.png
+    - assets/page-1/images/mask-group-yMR.png
+    - assets/page-1/images/mask-group-k7H.png
+    - assets/page-1/images/mask-group-Xew.png
+    - assets/page-1/images/ellipse-8328.png
+    - assets/page-1/images/mask-group-ces.png
+    - assets/page-1/images/rectangle-8691.png
+    - assets/page-1/images/background-1.png
+    - assets/page-1/images/mask-group-BZy.png
+    - assets/page-1/images/mask-group-vzB.png
+    - assets/page-1/images/link-brand1png-XZy.png
+    - assets/page-1/images/vector-Uk7.png
+    - assets/page-1/images/mask-group-nCP.png
+    - assets/page-1/images/mask-group-KCK.png
+    - assets/page-1/images/ellipse-8325-WtX.png
+    - assets/page-1/images/rectangle-8719.png
+    - assets/page-1/images/mask-group-jKm.png
+    - assets/page-1/images/mask-group-f9y.png
+    - assets/page-1/images/mask-group-zr3.png
+    - assets/page-1/images/ellipse-8326.png
+    - assets/page-1/images/mask-group-4AT.png
+    - assets/page-1/images/untitleddesign11-removebg-preview-1-1-AJb.png
+    - assets/page-1/images/mask-group-KNo.png
+    - assets/page-1/images/rklogo-removebg-preview-transformed-1-HtT.png
+    - assets/page-1/images/mask-group-JpF.png
+    - assets/page-1/images/mask-group-Th9.png
+    - assets/page-1/images/rklogo-removebg-preview-transformed-1-DAX.png
+    - assets/page-1/images/young-smiling-confident-woman-using-laptop-computer-looking-camera-isolated-white-background-removebg-preview-1.png
+    - assets/page-1/images/pngwing-1.png
+    - assets/page-1/images/unsplash-jaovgh5aj3e-bg.png
+    - assets/page-1/images/icon-FN7.png
+    - assets/page-1/images/ellipse-8327-DJw.png
+    - assets/page-1/images/mask-group-BWf.png
+    - assets/page-1/images/icons-twitter-line-LuM.png
+    - assets/page-1/images/vector-WYw.png
+    - assets/page-1/images/icons-facebook-line-Go1.png
+    - assets/page-1/images/vector-FFd.png
+    - assets/page-1/images/link-brand1png-Bf5.png
+    - assets/page-1/images/link-brand2png-M3m.png
+    - assets/page-1/images/background-3-Jzb.png
+    - assets/page-1/images/mask-group-t3h.png
+    - assets/page-1/images/link-brand4png-ubd.png
+    - assets/page-1/images/icon-rQP.png
+    - assets/page-1/images/rectangle-5.png
+    - assets/page-1/images/group-1000014996-Dpj.png
+    - assets/page-1/images/link-brand6png-2GP.png
+    - assets/page-1/images/link-brand3png-Zn7.png
+    - assets/page-1/images/untitleddesign11-removebg-preview-1-2.png
+    - assets/page-1/images/rectangle-5-hS7.png
+    - assets/page-1/images/link-brand1png-UST.png
+    - assets/page-1/images/rectangle-294-VFM.png
+    - assets/page-1/images/mask-group-sgs.png
+    - assets/page-1/images/pngwing-2.png
+    - assets/page-1/images/rklogo-removebg-preview-transformed-1-ED5.png
+    - assets/page-1/images/mask-group-WoH.png
+    - assets/page-1/images/icons-dribbble-line-Jg7.png
+    - assets/page-1/images/group-13186-LWB.png
+    - assets/page-1/images/phoneicon-1-83y.png
+    - assets/page-1/images/addresslocationmapnavigationicon-1-vDV.png
+    - assets/page-1/images/vector-MXd.png
+    - assets/page-1/images/ellipse-8325-Pgb.png
+    - assets/page-1/images/icons-instagram-line-hjD.png
+    - assets/page-1/images/link-brand3png-hz7.png
+    - assets/page-1/images/icon-kgP.png
+    - assets/page-1/images/link-brand6png-uGs.png
+    - assets/page-1/images/link-brand2png-Z59.png
+    - assets/page-1/images/link-brand4png-waP.png
+    - assets/page-1/images/link-brand1png-E1M.png
+    - assets/page-1/images/rklogo-removebg-preview-transformed-1-yC3.png
+    - assets/page-1/images/link-brand5png-SoH.png
+    - assets/page-1/images/link-brand1png-Rps.png
+    - assets/page-1/images/link-brand1png-3M1.png
+    - assets/page-1/images/untitleddesign11-removebg-preview-1-2-kUP.png
+    - assets/page-1/images/image-um5zotw7r-transformed-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
